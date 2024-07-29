@@ -21,7 +21,7 @@ for i in range(3):
     urls.append(url)
 
 process_url_clicked = st.sidebar.button("Process URLs")
-file_path = "https://github.com/Ashishlathkar77/News-Article-GPT-LLM/blob/main/faiss_store_openai.pkl"
+file_path = "faiss_store_openai.pkl"
 
 main_placefolder = st.empty()
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.9, max_tokens=500)
